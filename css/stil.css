@@ -1,0 +1,63 @@
+html,body{
+
+    background-color: black;
+
+}
+h1{
+
+color: aliceblue;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+
+   .style_prevu_kit
+   {
+       display:inline-block;
+       border:0;
+       width:196px;
+       height:210px;
+       position: relative;
+       -webkit-transition: all 200ms ease-in;
+       -webkit-transform: scale(1); 
+       -ms-transition: all 200ms ease-in;
+       -ms-transform: scale(1); 
+       -moz-transition: all 200ms ease-in;
+       -moz-transform: scale(1);
+       transition: all 200ms ease-in;
+       transform: scale(1);  
+       border-radius: 3px; 
+   
+   }
+   .style_prevu_kit:hover
+   {
+      
+       z-index: 2;
+       -webkit-transition: all 200ms ease-in;
+       -webkit-transform: scale(1.5);
+       -ms-transition: all 200ms ease-in;
+       -ms-transform: scale(1.5);   
+       -moz-transition: all 200ms ease-in;
+       -moz-transform: scale(1.5);
+       transition: all 200ms ease-in;
+       transform: scale(1.5);
+       border-radius: 20px;
+       
+   }
+   .font{
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:bold;
+   margin-bottom: 1px;
+   }
+   .button{
+
+    height: 30px;
+    width: 90px;
+    background-color: aqua;
+
+   }
+   .button:hover{
+    background-color: blue;
+    border-radius: 10px;
+
+   }

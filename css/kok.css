@@ -1,0 +1,38 @@
+html,body{
+    background-color: black;
+    
+    }
+    .baslik{
+        color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    #txt{
+    
+        width:200px;
+        height: 50px;
+        text-align: center;
+       
+    
+    }
+    .btn{
+        height: 30px;
+        width: 100px;
+        background-color: rgb(190, 157, 8);
+    
+    }
+    .btn:hover{
+    
+        background-color: rgb(243, 255, 71);
+        border-radius: 10px;
+    
+    }
+    #txt:hover{
+        border-radius: 15px;
+        background-color: rgb(111, 255, 236);
+    }
+    div{
+        color: aliceblue;
+        text-align: center;
+        font-size: 35px;
+    }

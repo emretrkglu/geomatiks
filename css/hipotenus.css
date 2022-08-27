@@ -1,0 +1,44 @@
+html,body{
+
+background-color: black;
+
+}
+#kenar1,#kenar2{
+
+    height: 30px;
+    border-radius: 1px;
+    background-color: darkolivegreen;
+    text-align: center;
+}
+#kenar1:hover,#kenar2:hover{
+    border-radius: 15px;
+    background-color: chartreuse;
+}
+h1{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+p{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+button{
+    width: 120px;
+    height: 35px;
+    background-color: rgba(255, 0, 0, 0.932);
+
+}
+button:hover{
+    border-radius: 15px;
+    background-color: tomato;
+}
+button:active{
+    background-color: aqua;
+}
+#sonuc{
+    color: aliceblue;
+    font-size: 35px;
+}
